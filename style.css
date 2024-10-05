@@ -101,3 +101,10 @@ main ul li a:hover {
 main ul li {
     margin-top: 10px;
 }
+
+main img {
+    position: relative;
+    left: 32%;
+    width: 35%;
+    height: 35%;
+}
