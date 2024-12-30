@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
-    background: rgba(0, 0, 0, .50) url("wallpaper.jfif");
+    background: rgba(0, 0, 0, .50) url("winterbg.jpg");
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100%;
     overflow: hidden;
 }
 
@@ -13,7 +15,7 @@ header {
 
 .logo {
     position: relative;
-    left: 45%;
+    left: 44.5%;
     border-radius: 100%;
     border-width: 10pt;
     border-style: solid;
