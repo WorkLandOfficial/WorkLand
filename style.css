@@ -68,12 +68,23 @@ header ul {
     list-style: none;
 }
 
+header ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
 header ul li a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.6em;
     font-family: "Ubuntu";
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: crimson;
     color: white;
     background-color: rgba(220, 20, 60, 0.6);
     padding-left: 25px;
@@ -83,8 +94,17 @@ header ul li a {
     opacity: 90%;
 }
 
+header ul li a:hover {
+    border-color: orange;
+}
+
 main ul {
     list-style: none;
+}
+
+#useful_list {
+    position: fixed;
+    margin-top: -2%;
 }
 
 main ul li a {
@@ -98,6 +118,7 @@ main ul li a {
 
 main ul li a:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 main ul li {
@@ -109,4 +130,43 @@ main img {
     left: 32%;
     width: 35%;
     height: 35%;
+}
+
+.post {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #6666ff;
+}
+
+.post h3 {
+    font-size: 1.6em;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.post h4 {
+    position: relative;
+    margin-left: 10px;
+    font-size: 1.4em;
+    font-family: "Ubuntu";
+}
+
+ul li h4 a {
+    text-decoration: underline;
+    color: blue;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ul li h4 a:hover {
+    color: blueviolet;
+}
+
+.WorkLand h1 {
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
 }
