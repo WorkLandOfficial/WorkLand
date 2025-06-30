@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
-    background: rgba(0, 0, 0, .50) url("winterbg.jpg");
+    background: rgba(0, 0, 0, .50) url("eveningbg.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -10,7 +10,7 @@ body {
 
 header {
     padding-top: 10px;
-    background-color: rgba(165, 165, 165, 0.65);
+    background-color: rgba(165, 165, 165, 0.45);
 }
 
 .logo {
@@ -64,7 +64,7 @@ h1:hover, h2:hover {
 header ul {
     position: relative;
     top: -150px;
-    left: 70%;
+    left: 80%;
     list-style: none;
 }
 
@@ -130,28 +130,6 @@ main img {
     left: 32%;
     width: 35%;
     height: 35%;
-}
-
-.post {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #6666ff;
-}
-
-.post h3 {
-    font-size: 1.6em;
-    font-family: "Ubuntu";
-    text-align: center;
-}
-
-.post h4 {
-    position: relative;
-    margin-left: 10px;
-    font-size: 1.4em;
-    font-family: "Ubuntu";
 }
 
 ul li h4 a {
