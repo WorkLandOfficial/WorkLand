@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkLand — Официальный сайт</title>
+    <title>WorkLand — Игроки</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon.png">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="logo_container">
-            <a href="ip.html"><img src="logo.jfif" alt="logo" class="logo"></a>
+            <a href="index.html"><img src="logo.jfif" alt="logo" class="logo"></a>
         </div>
         <ul>
             <li><a href="http://dynmap.workland.ignorelist.com:35850"> Дин. карта</a></li>
@@ -19,8 +20,11 @@
     </header>
     <main>
         <div class="WorkLand">
-            <a href="ip.html"><h1>WorkLand</h1></a>
-            <a href="ip.html"><h2>Работа кипит!</h2></a>
+            <h1>WorkLand</h1>
+            <h2 id="online" onclick="list()">Игроков ?/20</h2>
+            <!-- <h1 id="players" onclick="list()">Список</h1> -->
+            <h2>Игроки:</h2>
+            <ul id="players"></ul>
         </div>
     </main>
 </body>
